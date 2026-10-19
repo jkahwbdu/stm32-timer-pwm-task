@@ -46,7 +46,7 @@
 #define TASK_1_TIMER_COUNT   0
 #define TASK_2_PWM_BREATH    1
 
-#define APP_TASK   TASK_2_PWM_BREATH        /* ★★ 改这一行 ★★ */
+#define APP_TASK   TASK_1_TIMER_COUNT        /* ★★ 改这一行 ★★ */
 
 /* ---- 定时器参数 ----
  * TIM2 挂接在 APB1 上。APB1 分频系数 = 2 时，定时器时钟 = PCLK1 x 2，
