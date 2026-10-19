@@ -1,0 +1,30 @@
+# ================= Keil MDK 编译产物（不需要进仓库）=================
+MDK-ARM/Timer_PWM_Task/
+MDK-ARM/DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.dep
+*.lnp
+*.sct
+*.iex
+*.build_log.htm
+
+# ================= Keil 用户个人设置 / 临时文件 =================
+*.uvguix.*
+*.uvoptx
+*.bak
+*.__i
+JLinkLog.txt
+JLinkSettings.ini
+
+# ================= 系统垃圾 =================
+Thumbs.db
+desktop.ini
+.DS_Store
